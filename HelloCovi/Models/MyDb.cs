@@ -13,5 +13,6 @@ namespace HelloCovi.Models
         }
 
         public System.Data.Entity.DbSet<HelloCovi.Models.Student> Students { get; set; }
+        
     }
 }

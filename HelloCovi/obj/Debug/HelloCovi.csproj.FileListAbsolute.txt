@@ -81,3 +81,4 @@ C:\Users\Linh Rua\source\repos\HelloCovi\HelloCovi\obj\Debug\HelloCovi.dll
 C:\Users\Linh Rua\source\repos\HelloCovi\HelloCovi\obj\Debug\HelloCovi.pdb
 C:\Users\Linh Rua\source\repos\HelloCovi\HelloCovi\obj\Debug\HelloCovi.Migrations.CreateStudentTable.resources
 C:\Users\Linh Rua\source\repos\HelloCovi\HelloCovi\obj\Debug\HelloCovi.csproj.GenerateResource.cache
+C:\Users\Linh Rua\source\repos\HelloCovi\HelloCovi\obj\Debug\HelloCovi.csprojAssemblyReference.cache

@@ -1,7 +1,23 @@
-﻿@{
+﻿@model HelloCovi.Models.CombineData
+    ViewBag.Title = "About";
+@{
     ViewBag.Title = "About";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<h1>Demo AJAX Helper</h1>
+<div id="attachmentImage">
+    Table of content
+</div>
 
-<p>Use this area to provide additional information.</p>
+@Ajax.ActionLink("View more", "AjaxIndex", "Student"
+    new AjaxOptions
+    {
+        HttpMethod = "GET",
+        InsertionMode = InsertionMode.Replace,
+        LoadingElementId = "loadingImage",
+        UpdateTargetId = "attachmentImage"
+    })
+<a href="~/Views/Home/About.cshtml">~/Views/Home/About.cshtml</a>
+
+<div id="loadingImage" style="display:none">
+    Loading attachment...
+</div>
